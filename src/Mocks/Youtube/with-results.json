@@ -1,0 +1,87 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "TSI8u-FIOipGE8i5eiP9xhzpKXI",
+    "items": [
+        {
+            "kind": "youtube#video",
+            "etag": "_crRzMnWbeu-MkbEC1J45af14AU",
+            "id": "waotVrQDmn0",
+            "snippet": {
+                "publishedAt": "2023-06-07T23:00:07Z",
+                "channelId": "UC8Rospwl8JsEWl6WK1wgbdg",
+                "title": "1998 El mejor año para los videojuegos",
+                "description": "Un poco de historia como una zanahoria\n\nUNITE A NUESTRO DISCORD\nhttps://discord.gg/jb3CU2vmnT\n\nTenemos Cafecito. Si no sos pobre bancá la movida: https://cafecito.app/maritogames\nY si podés sumate a Patreon: https://www.patreon.com/maritobaracus\n\nSuscribite a mi canal principal https://www.youtube.com/user/maritobaracus\nY en Instagram subo más falopita https://www.instagram.com/maritobaracus",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/waotVrQDmn0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/waotVrQDmn0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/waotVrQDmn0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/waotVrQDmn0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/waotVrQDmn0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Marito Games",
+                "tags": [
+                    "Metal Gear Solid",
+                    "Resident Evil 2",
+                    "The Legend of Zelda: Ocarina of Time",
+                    "Half-Life",
+                    "Starcraft",
+                    "Baldur's Gate",
+                    "Gran Turismo",
+                    "Banjo-Kazooie",
+                    "Crash Bandicoot: Warped",
+                    "Spyro",
+                    "MediEvil",
+                    "Star Wars:Rogue Squadron",
+                    "1080º Snowboarding",
+                    "World Cup 98",
+                    "Sonic Adventure",
+                    "Panzer Dragoon Saga",
+                    "Need For Speed 3 hot persuit",
+                    "F-Zero X",
+                    "Grim Fandango",
+                    "Commandos: Behind Enemy Lines",
+                    "Unreal",
+                    "Tom Clancy's Rainbow Six",
+                    "Marvel vs. Capcom: Clash of Super Heroes",
+                    "Tenchu",
+                    "Parasite Eve",
+                    "Xenogears",
+                    "Konami",
+                    "LucasArts"
+                ],
+                "categoryId": "20",
+                "liveBroadcastContent": "none",
+                "defaultLanguage": "es-419",
+                "localized": {
+                    "title": "1998 El mejor año para los videojuegos",
+                    "description": "Un poco de historia como una zanahoria\n\nUNITE A NUESTRO DISCORD\nhttps://discord.gg/jb3CU2vmnT\n\nTenemos Cafecito. Si no sos pobre bancá la movida: https://cafecito.app/maritogames\nY si podés sumate a Patreon: https://www.patreon.com/maritobaracus\n\nSuscribite a mi canal principal https://www.youtube.com/user/maritobaracus\nY en Instagram subo más falopita https://www.instagram.com/maritobaracus"
+                },
+                "defaultAudioLanguage": "es-419"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 1
+    }
+}

@@ -1,0 +1,17 @@
+diff --git a/node_modules/react-colorful/dist/types.d.ts b/node_modules/react-colorful/dist/types.d.ts
+index 819cada..9be2084 100644
+--- a/node_modules/react-colorful/dist/types.d.ts
++++ b/node_modules/react-colorful/dist/types.d.ts
+@@ -35,10 +35,12 @@ declare type ColorPickerHTMLAttributes = Omit<React.HTMLAttributes<HTMLDivElemen
+ export interface ColorPickerBaseProps<T extends AnyColor> extends ColorPickerHTMLAttributes {
+     color: T;
+     onChange: (newColor: T) => void;
++    name: string;
+ }
+ declare type ColorInputHTMLAttributes = Omit<React.InputHTMLAttributes<HTMLInputElement>, "onChange" | "value">;
+ export interface ColorInputBaseProps extends ColorInputHTMLAttributes {
+     color?: string;
+     onChange?: (newColor: string) => void;
++    name:string;
+ }
+ export {};

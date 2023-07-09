@@ -3,7 +3,7 @@ import { Box, CircularProgress, Typography } from '@mui/material'
 import styled from 'styled-components'
 import { ApiError } from '../ApiError'
 import { useGetVideoThumbnailQuery } from '@/Context/Slices/YouTubeSlice'
-import { useCallback, useEffect, useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { type YoutubeApiType } from '@/Types'
 
 interface Props {
@@ -15,12 +15,6 @@ const VideoInfo: React.FC<Props> = (props: Props) => {
   const { handleYoutubeLink, mapResponseToObject } = useYoutubeApi()
   const { data: youtubeVideo, isSuccess, isLoading } = useGetVideoThumbnailQuery(handleYoutubeLink(props.videoUrl))
   const youtubeData = useRef< YoutubeApiType | null>(null)
-  useCallback(() => {
-    console.log('ñaña')
-    if (youtubeData.current !== null && youtubeVideo !== undefined && youtubeData.current.title !== youtubeVideo.items[0].snippet.title) {
-      youtubeData.current = mapResponseToObject(youtubeVideo)
-    }
-  }, [youtubeVideo])
 
   useEffect(() => {
     if (youtubeData.current !== null) {
